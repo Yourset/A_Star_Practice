@@ -2,46 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-enum Block_Type
+//建立节点所拥有的属性
+public class point
 {
-    barrier,
-    plane
-    
-    
-    
-}
-public class AstarNode
-{
-    //坐标
-    public float X;
-
-    public float Y;//
-
     //父亲节点
-    public AstarNode Father;
+    public point parent;
+    //全局管理器的加入
+    public manager manager;
 
-    //寻路消耗
-    public float F;
-    public float G;
-    public float H;
+    //起点
+    public point start_point;
+    //终点
+    public point end_point;
+}
 
-    /// <summary>
-    /// 起点
-    /// </summary>
-    public AstarNode Start;
-
-    /// <summary>
-    /// 终点
-    /// </summary>
-    public AstarNode End;
-
-    /// <summary>
-    /// 计算路径消耗\
-    /// 不包括重新测量终点的位置
-    /// </summary>
-    public void get_F()
-    {
-        F = G + H;
-    }
+public class astar_node:MonoBehaviour
+{
     
 }
+
