@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="测试">
-      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
+    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="a星管理器">
+      <change afterPath="$PROJECT_DIR$/Assets/scene1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scene1.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/astar_node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" afterDir="false" />
@@ -42,12 +44,15 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1laEYpkrcKjwAn0lUqxC3Gj79Iq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,7 +95,7 @@
       <updated>1607826856938</updated>
       <workItem from="1607826866032" duration="5855000" />
       <workItem from="1610973431808" duration="3367000" />
-      <workItem from="1610978314753" duration="3999000" />
+      <workItem from="1610978314753" duration="6551000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610977751079</created>
@@ -99,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610977751079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a星管理器">
+      <created>1610982917185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610982917185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +131,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="a星管理器" />
+    <option name="LAST_COMMIT_MESSAGE" value="a星管理器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-874" y="283" key="#Inspection_severity" timestamp="1607846194732">
@@ -150,9 +164,10 @@
     <state x="-900" y="284" key="SettingsEditor/0.0.1845.1080/-900.-161.900.1600@-900.-161.900.1600" timestamp="1607918423435" />
     <state x="292" y="223" key="SettingsEditor/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610978993805" />
     <state x="424" y="215" key="SettingsEditor/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975405370" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1610977743112">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1610982923569">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610982923569" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610977743112" />
     <state x="241" y="246" width="1434" height="458" key="search.everywhere.popup" timestamp="1610980578129">
       <screen x="0" y="0" width="1920" height="1080" />
