@@ -9,18 +9,20 @@ public class point
 {
     
     //父亲节点
-    public point parent=null;
+    public point parent;
     //全局管理器的加入
     public manager manager=null;
 
     //起点
-    public point start_point=null;
+    public point start_point;
     //终点
-    public point end_point=null;
+    public point end_point;
     //x坐标和y坐标
     
-    public int x=0;
-    public int y=0;
+    public int x;
+    public int y;
+    
+    
 
     public double consume=999;
     
@@ -30,13 +32,20 @@ public class point
     /**
      * 计算当前方格的消耗
      */
-    public void caculate_consume()
+    public double caculate_consume()
     {
-        double distance_to_staert;
+        double distance_to_start;
+        double use_x, use_y;
+        use_x = (double)x;
+        use_y = (double)y;
         // distance_to_staert = x-
-        consume = Math.Pow(x * x + y * y, 0.5f);
-        // consume = consume+
+        distance_to_start = Math.Sqrt(use_x*use_x + use_y*use_y);
+        double manhatten_distance = Math.Abs(end_point.x - use_x) + Math.Abs(end_point.y - use_y);
+        consume = manhatten_distance + distance_to_start;
+
+        return consume;
     }
+    
     
     
 }
@@ -46,7 +55,15 @@ public class astar_node:MonoBehaviour
     public point point = new point();
     private void Start ()
     {
+        //不是已经实例化了吗
         point = new point();
+        
+        // lock (this)
+        // {
+        //     
+        // }
+        color_judge();
+        
         
     }
 
@@ -56,15 +73,30 @@ public class astar_node:MonoBehaviour
         Debug.Log("按下");
         //如果本来是 就变成 不是 反正就是一个取反的工作
         point.is_barrier = !point.is_barrier;
-        if (point.is_barrier == true)
+        color_judge();
+
+    }
+
+    private void color_judge()
+    {
+        if (point.is_barrier == false)
         {
-            this.transform.GetComponent<SpriteRenderer>().color = Color.white;
+             
         }
         else
         {
             this.transform.GetComponent<SpriteRenderer>().color = Color.black;
         }
 
+        if (point.start_point==point)
+        {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+        if (point.end_point==point)
+        {
+            this.transform.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+        
     }
 }
 

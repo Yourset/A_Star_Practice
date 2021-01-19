@@ -10,7 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="openlist" />
+    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="openlist">
+      <change afterPath="$PROJECT_DIR$/Assets/button1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/astar_node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +32,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/button1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.1.0/Unity.Mathematics/math.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/astar_node.cs" />
+        <option value="$PROJECT_DIR$/Assets/button1.cs" />
         <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
       </list>
     </option>
@@ -85,7 +103,7 @@
       <updated>1607826856938</updated>
       <workItem from="1607826866032" duration="5855000" />
       <workItem from="1610973431808" duration="3367000" />
-      <workItem from="1610978314753" duration="21294000" />
+      <workItem from="1610978314753" duration="33410000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610977751079</created>
@@ -122,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611042346721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="openlist">
+      <created>1611042414620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611042414620</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,12 +206,12 @@
     <state x="292" y="223" key="SettingsEditor/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610978993805" />
     <state x="424" y="215" key="SettingsEditor/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975405370" />
     <state x="0" y="223" key="SettingsEditor/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611038633681" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611042394681">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611042433761">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610986407244" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610977743112" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611042394681" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611042433761" />
     <state x="674" y="274" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1611042369771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

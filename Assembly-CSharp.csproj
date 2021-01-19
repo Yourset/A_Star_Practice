@@ -60,6 +60,7 @@
   <ItemGroup>
      <Compile Include="Assets\astar_manager.cs" />
      <Compile Include="Assets\astar_node.cs" />
+     <Compile Include="Assets\button1.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/OneDrive - stu.fosu.edu.cn/Unity_game_library/game_biscuit/AStar_text/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
