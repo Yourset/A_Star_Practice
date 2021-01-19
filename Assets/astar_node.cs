@@ -56,13 +56,10 @@ public class astar_node:MonoBehaviour
     private void Start ()
     {
         //不是已经实例化了吗
-        point = new point();
         
-        // lock (this)
-        // {
-        //     
-        // }
-        color_judge();
+        
+        
+     
         
         
     }
@@ -70,7 +67,7 @@ public class astar_node:MonoBehaviour
     //当鼠标按下的时候 进行是否变成障碍物
     private void OnMouseDown()
     {
-        Debug.Log("按下");
+        Debug.Log("按下 "+point.x+"_"+point.y);
         //如果本来是 就变成 不是 反正就是一个取反的工作
         point.is_barrier = !point.is_barrier;
         color_judge();
@@ -81,7 +78,7 @@ public class astar_node:MonoBehaviour
     {
         if (point.is_barrier == false)
         {
-             
+            this.transform.GetComponent<SpriteRenderer>().color = Color.white;
         }
         else
         {
