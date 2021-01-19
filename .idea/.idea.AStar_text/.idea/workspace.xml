@@ -10,16 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="a星管理器">
-      <change afterPath="$PROJECT_DIR$/Assets/scene1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scene1.unity.meta" afterDir="false" />
+    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="a星管理器2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/astar_node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_node.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0e/0ea351c50817dc4e0f0ca60e519260f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/4c/4c5cd95bf4767714a16d34d0502b0c4c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5a/5aa4212b977af9462efdbd9b1248310d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f1/f182b8fa6aa53f588a472e5cf956f901" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/f4/f46d23b5fc1633246244166f96f07bdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fd/fd12b9852f14da7b39c28a124403825c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +37,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
         <option value="$PROJECT_DIR$/Assets/astar_node.cs" />
+        <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -95,7 +100,7 @@
       <updated>1607826856938</updated>
       <workItem from="1607826866032" duration="5855000" />
       <workItem from="1610973431808" duration="3367000" />
-      <workItem from="1610978314753" duration="6551000" />
+      <workItem from="1610978314753" duration="9851000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610977751079</created>
@@ -111,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610982917185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a星管理器2">
+      <created>1610986229661</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610986229661</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +147,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="测试" />
     <MESSAGE value="a星管理器" />
-    <option name="LAST_COMMIT_MESSAGE" value="a星管理器" />
+    <MESSAGE value="a星管理器2" />
+    <option name="LAST_COMMIT_MESSAGE" value="a星管理器2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-874" y="283" key="#Inspection_severity" timestamp="1607846194732">
@@ -158,16 +171,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="523" y="152" width="874" height="573" key="Registry/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975620330" />
-    <state x="292" y="223" key="SettingsEditor" timestamp="1610978993805">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1920" y="119" key="SettingsEditor" timestamp="1611022418387">
+      <screen x="1920" y="-205" width="900" height="1570" />
     </state>
     <state x="-900" y="284" key="SettingsEditor/0.0.1845.1080/-900.-161.900.1600@-900.-161.900.1600" timestamp="1607918423435" />
+    <state x="1920" y="119" key="SettingsEditor/0.0.1920.1080/1920.-205.900.1570@1920.-205.900.1570" timestamp="1611022418387" />
     <state x="292" y="223" key="SettingsEditor/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610978993805" />
     <state x="424" y="215" key="SettingsEditor/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975405370" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1610982923569">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1610986407244">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610982923569" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610986407244" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610977743112" />
     <state x="241" y="246" width="1434" height="458" key="search.everywhere.popup" timestamp="1610980578129">
       <screen x="0" y="0" width="1920" height="1080" />
