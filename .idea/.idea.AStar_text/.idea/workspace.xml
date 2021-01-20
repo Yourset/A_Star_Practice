@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="openlist 失败1">
+    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="openlist 成功 但是是废弃版本">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/astar_node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +31,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/button1.cs" />
-        <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
         <option value="$PROJECT_DIR$/Assets/astar_node.cs" />
+        <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +94,8 @@
       <updated>1607826856938</updated>
       <workItem from="1607826866032" duration="5855000" />
       <workItem from="1610973431808" duration="3367000" />
-      <workItem from="1610978314753" duration="36440000" />
+      <workItem from="1610978314753" duration="37331000" />
+      <workItem from="1611107341326" duration="427000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610977751079</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611060873721</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="openlist 成功 但是是废弃版本">
+      <created>1611065431945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611065431945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +171,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -175,7 +182,8 @@
     <MESSAGE value="a星管理器3" />
     <MESSAGE value="openlist" />
     <MESSAGE value="openlist 失败1" />
-    <option name="LAST_COMMIT_MESSAGE" value="openlist 失败1" />
+    <MESSAGE value="openlist 成功 但是是废弃版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="openlist 成功 但是是废弃版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="55" y="300" key="#Inspection_severity" timestamp="1611037043303">
@@ -207,12 +215,12 @@
     <state x="292" y="223" key="SettingsEditor/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610978993805" />
     <state x="424" y="215" key="SettingsEditor/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975405370" />
     <state x="0" y="223" key="SettingsEditor/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611038633681" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611060885718">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611065444573">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610986407244" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610977743112" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611060885718" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611065444573" />
     <state x="674" y="274" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1611042369771">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
