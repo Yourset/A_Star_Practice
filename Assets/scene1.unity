@@ -392,7 +392,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 763376624}
-        m_MethodName: button
+        m_MethodName: find_button
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a4936ac8f9b72947a526aca1c0e6367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  the_point: {fileID: 30794151}
+  block: {fileID: 30794151}
   x_num: 7
   y_num: 5
   space_between: 2
