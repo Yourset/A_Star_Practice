@@ -39,7 +39,8 @@ public class point
         use_x = (double)x;
         use_y = (double)y;
         // distance_to_staert = x-
-        distance_to_start = Math.Sqrt(use_x*use_x + use_y*use_y);
+        distance_to_start = Math.Sqrt(Math.Abs(start_point.x - use_x)*Math.Abs(start_point.x - use_x) + Math.Abs(start_point.y - use_y)*Math.Abs(start_point.y - use_y));
+        // distance_to_start = Math.Abs(start_point.x - use_x) + Math.Abs(start_point.y - use_y);
         double manhatten_distance = Math.Abs(end_point.x - use_x) + Math.Abs(end_point.y - use_y);
         consume = manhatten_distance + distance_to_start;
 
@@ -74,7 +75,7 @@ public class astar_node:MonoBehaviour
 
     }
 
-    private void color_judge()
+    public void color_judge()
     {
         if (point.is_barrier == false)
         {
