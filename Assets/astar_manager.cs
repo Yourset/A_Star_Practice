@@ -72,7 +72,7 @@ public class astar_manager:MonoBehaviour
     /// <param name="c">数据3</param>
     void output(double a=666,double b=666,double c=666,double d = 666)
     {
-        print(a+" "+b+" "+c+" "+d);
+        // print(a+" "+b+" "+c+" "+d);
     }
     void Start()
     {
@@ -95,6 +95,8 @@ public class astar_manager:MonoBehaviour
         all_star_end();
         //记录到points
         build_points();
+
+        mg.start_point.parent = mg.start_point;
     }
     
     //生产出所有方块 保存到mg
@@ -116,6 +118,11 @@ public class astar_manager:MonoBehaviour
                 float z = this.transform.position.z;
                 
                 block.transform.position= new Vector3(x,y,z);
+
+                // if (this.GetComponent<astar_node>().point.x==start_x&&this.GetComponent<astar_node>().point.y==start_y)
+                // {
+                //     this.GetComponent<astar_node>().point.parent = this.GetComponent<astar_node>().point;
+                // }
                 
                 record_block(block,i,j);
                 
@@ -146,6 +153,12 @@ public class astar_manager:MonoBehaviour
                 VARIABLE.GetComponent<SpriteRenderer>().color = Color.blue;
                 //记录起点
                 mg.start_point = VARIABLE.GetComponent<astar_node>().point;
+                // Debug.Log(mg.start_point);
+                // VARIABLE.GetComponent<astar_node>().point.parent = VARIABLE.GetComponent<astar_node>().point;
+                // Debug.Log("VAR"+VARIABLE.GetComponent<astar_node>().point.parent);
+
+                //如果是起点 那么起点的父亲等于自己
+
             }
         }
     }
@@ -171,6 +184,12 @@ public class astar_manager:MonoBehaviour
         {
             VARIABLE.GetComponent<astar_node>().point.end_point = mg.end_point;
             VARIABLE.GetComponent<astar_node>().point.start_point = mg.start_point;
+            if (VARIABLE.GetComponent<astar_node>().point.start_point == VARIABLE.GetComponent<astar_node>().point)
+            {
+                
+                VARIABLE.GetComponent<astar_node>().point.parent = mg.start_point;
+                Debug.Log("走过了"+VARIABLE.GetComponent<astar_node>().point.parent);
+            }
         }
     }
 
@@ -267,7 +286,7 @@ public class astar_manager:MonoBehaviour
     private void FixedUpdate()
     {
         times++;
-        if(mg.close_list.Count!=mg.points.Length&& test_try_times<=1000&&mg.open_list.Count!=0&& jinxing==2&&times%5==0)
+        if(mg.close_list.Count!=mg.points.Length&& test_try_times<=1000&&mg.open_list.Count!=0&& jinxing==2&&times%10==0)
         {
             test_try_times += 1;
             find_open_near(now_center);
@@ -288,7 +307,7 @@ public class astar_manager:MonoBehaviour
                 // {
                 //     Debug.Log("没找到");
                 // }
-            Debug.Log(mg.open_list.Count);
+            // Debug.Log(mg.open_list.Count);
             if (mg.open_list.Count == 0)
             {
                 Debug.Log("的确是因为openlist开完了所有没了");
@@ -377,6 +396,8 @@ void clear_all()
     foreach (var VARIABLE in mg.obj_blocks)
     {
         VARIABLE.transform.GetComponent<astar_node>().color_judge();
+        VARIABLE.transform.GetComponent<astar_node>().point.g = 99999;
+        
     }
 }
 void set_road_color_from_end(point end)
@@ -459,13 +480,21 @@ void set_color(int x,int y )
             output(x,y,333);
             
             point p = mg.points[x, y];
-            //障碍物 是否存在 是否在openlist中存在 是否在closelist中存在
+            //障碍物 是否存在 是否在closelist中存在
             if (p.is_barrier==false&&p!=null&&mg.open_list.Contains(p)==false&&mg.close_list.Contains(p)==false)
             {
                 //计算一下
-                p.caculate_consume();
-                mg.open_list.Add(p);
                 p.parent = father;
+                p.caculate_consume(father);
+                mg.open_list.Add(p);
+                
+
+            }else if(p.is_barrier==false&&p!=null&&mg.open_list.Contains(p)==true&&mg.close_list.Contains(p)==false)//是否在openlist中存在 
+            {
+                //根据当前的父亲节点计算g g=g开启节点的g+距离开启节点的g
+                //如果g<当前g
+                //g替换 g更新 f更新
+                p.caculate_consume(father);
 
             }
             

@@ -10,13 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="增加寻路前清理的功能">
+    <list default="true" id="6b4c3132-4c50-40c4-aaad-6249722f0801" name="Default Changelist" comment="米字形A*算法 现存在穿墙的问题&#10;增加寻路前清理的功能">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AStar_text/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/astar_manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_manager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/astar_node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/astar_node.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/082e24-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/78d4a5-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +45,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/button1.cs" />
-        <option value="$PROJECT_DIR$/Assets/astar_node.cs" />
         <option value="$PROJECT_DIR$/Assets/astar_manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/astar_node.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +112,8 @@
       <workItem from="1611107341326" duration="427000" />
       <workItem from="1611108397425" duration="11597000" />
       <workItem from="1611152589080" duration="1689000" />
-      <workItem from="1611401509132" duration="5170000" />
+      <workItem from="1611401509132" duration="5831000" />
+      <workItem from="1611570292945" duration="19398000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1610977751079</created>
@@ -214,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611402883403</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="米字形A*算法 现存在穿墙的问题&#10;增加寻路前清理的功能">
+      <created>1611407017630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611407017630</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +264,8 @@
     <MESSAGE value="绝对成功!" />
     <MESSAGE value="修复了如果只有一条出路的时候不能寻路的情况&#10;修复方法就是当openlist只有一个的时候加入到closelist后不移除" />
     <MESSAGE value="增加寻路前清理的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加寻路前清理的功能" />
+    <MESSAGE value="米字形A*算法 现存在穿墙的问题&#10;增加寻路前清理的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="米字形A*算法 现存在穿墙的问题&#10;增加寻路前清理的功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="55" y="300" key="#Inspection_severity" timestamp="1611037043303">
@@ -284,12 +298,16 @@
     <state x="424" y="215" key="SettingsEditor/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610975405370" />
     <state x="0" y="223" key="SettingsEditor/0.0.1920.1080/1920.-258.900.1539@0.0.1920.1080" timestamp="1611110956617" />
     <state x="0" y="223" key="SettingsEditor/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611038633681" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611402884721">
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1611578302627">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080/1920.-258.900.1539@0.0.1920.1080" timestamp="1611578302627" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1611407020935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.1538.900@0.0.1920.1080" timestamp="1610986407244" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-206.838.1600@0.0.1920.1080" timestamp="1610977743112" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1539@0.0.1920.1080" timestamp="1611402884721" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1539@0.0.1920.1080" timestamp="1611407020935" />
     <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.-258.900.1570@0.0.1920.1080" timestamp="1611065444573" />
     <state x="674" y="274" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1611042369771">
       <screen x="0" y="0" width="1920" height="1080" />
